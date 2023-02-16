@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaf89ce5f8c543b46977f05cca590dbb, type: 3}
+  m_Name: Box
+  m_EditorClassIdentifier: 
+  ItemsToDrop:
+  - ItemSO: {fileID: 11400000, guid: 00e15c9b6b48ab94e95dd9975e28d5f8, type: 2}
+    DropChance: 1
+  - ItemSO: {fileID: 11400000, guid: a4d7645b81d5d6f4eb6044d4b8d6610d, type: 2}
+    DropChance: 4
+  - ItemSO: {fileID: 11400000, guid: 84f43af27a3cc7145a013ae3110ddba3, type: 2}
+    DropChance: 5
+  - ItemSO: {fileID: 11400000, guid: c770132fe23b83641bc1dbd9a87f880c, type: 2}
+    DropChance: 10
+  - ItemSO: {fileID: 11400000, guid: 748646abe53c1c3409b006bebb27a8d0, type: 2}
+    DropChance: 15
+  - ItemSO: {fileID: 11400000, guid: 5f0efc50b91e59040bfb5d79f49d413e, type: 2}
+    DropChance: 15
+  - ItemSO: {fileID: 11400000, guid: ec231ff1c1f36b640aee6879e0a173aa, type: 2}
+    DropChance: 25
+  - ItemSO: {fileID: 11400000, guid: bd2570f389e64474eaf10acf2f655243, type: 2}
+    DropChance: 25
+  TotalWeight: 100
